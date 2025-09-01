@@ -13,7 +13,6 @@ This is a .NET 8 Web API project for managing workflows and processes, with vali
 ## Endpoints
 - POST /v1/workflows: Create workflow.
 - PUT /v1/workflows/{id}: Update workflow.
-- GET /v1/workflows: Get all workflows.
 - GET /v1/workflows/{id}: Get workflow by ID.
 - POST /v1/processes/start: Start process.
 - POST /v1/processes/execute: Execute step.

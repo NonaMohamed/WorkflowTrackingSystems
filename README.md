@@ -5,7 +5,7 @@ This is a .NET 8 Web API project for managing workflows and processes, with vali
 ## Setup
 1. Clone the repo.
 2. Restore packages: `dotnet restore`.
-3. Update appsettings.json with connection string if needed (default: SQLite file in bin).
+3. Update appsettings.json with connection string if needed .
 4. Run migrations: `dotnet ef migrations add InitialCreate --project WorkflowTrackingSystem.Infrastructure --startup-project WorkflowTrackingSystem.API`
 5. Update database: `dotnet ef database update --project WorkflowTrackingSystem.Infrastructure --startup-project WorkflowTrackingSystem.API`
 6. Run: `dotnet run --project WorkflowTrackingSystem.API`
